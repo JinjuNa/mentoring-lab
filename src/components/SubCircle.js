@@ -4,10 +4,10 @@ import circle_blue from "../assets/circle_blue.png";
 
 function SubCircle() {
   return (
-    <div class="sub-circle">
-        <img src={circle_green} class="circle1 circle" alt="circle_green" />
-        <img src={circle_blue} class="circle2 circle" alt="circle_blue" />
-        <img src={circle_green} class="circle3 circle" alt="circle_green" />
+    <div className="sub-circle">
+        <img src={circle_green} className="circle1 circle" alt="circle_green" />
+        <img src={circle_blue} className="circle2 circle" alt="circle_blue" />
+        <img src={circle_green} className="circle3 circle" alt="circle_green" />
     </div>
   );
 }

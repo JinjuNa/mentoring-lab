@@ -1,0 +1,28 @@
+@charset 'uft-8';
+/* main */
+
+
+
+/* 공용 */
+.contents{
+    width: 1165px;
+    margin:0 auto;
+}
+
+
+/* vision */
+
+
+
+
+/* recruit */
+.recruit-item-container{
+    display: flex;
+}
+
+.recruit-item{
+    flex:50%;
+
+}
+
+

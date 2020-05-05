@@ -10,24 +10,24 @@ function History() {
         <SubTitle title={title} />
         <div className="history">
         <div className="contents">
-            <div class="historyImg">
+            <div className="historyImg">
             <img src="../assets/history.png" alt="history" />
             </div>
-            <div class="gray">OUR START</div>``
-            <div class="yearBox right">
+            <div className="gray">OUR START</div>``
+            <div className="yearBox right">
             <h2>2012</h2>
             <ul>
                 <li>MENTORING-LAB설립</li>
             </ul>
             </div>
-            <div class="yearBox left">
+            <div className="yearBox left">
             <h2>2013</h2>
             <ul>
                 <li>진로교육 1년 아카데미 '비전스쿨' 개설</li>
                 <li>(~2019년 12월 현재 437명 훈련 중)</li>
             </ul>
             </div>
-            <div class="yearBox right">
+            <div className="yearBox right">
             <h2>2014</h2>
             <ul>
                 <li>경기도 교육청 진로멘토단 선정</li>
@@ -36,7 +36,7 @@ function History() {
                 <li>창의력 1년 아카데미 '패러다임스쿨' 개설</li>
             </ul>
             </div>
-            <div class="yearBox left">
+            <div className="yearBox left">
             <h2>2015</h2>
             <ul>
                 <li>싱가폴 MICROSOFT 직원 직무교육 운영</li>
@@ -44,28 +44,28 @@ function History() {
                 <li>경제교육 1년 아카데미 '경제스쿨' 개설</li>
             </ul>
             </div>
-            <div class="yearBox right">
+            <div className="yearBox right">
             <h2>2016</h2>
             <ul>
                 <li>교육부 진로교육 정보망 상담교사 활동</li>
                 <li>기업가양성 1년 아카데미 '창업스쿨' 개설</li>
             </ul>
             </div>
-            <div class="yearBox left">
+            <div className="yearBox left">
             <h2>2017</h2>
             <ul>
                 <li>한국 진로직업협회 이사 취임</li>
                 <li>MENTORING-LAB 서울 본사 개소</li>
             </ul>
             </div>
-            <div class="yearBox right">
+            <div className="yearBox right">
             <h2>2018</h2>
             <ul>
                 <li>성신여자대학교 창업교육 학과 개설</li>
                 <li>초기창업패키지 창업과정 4개 아이템 선정</li>
             </ul>
             </div>
-            <div class="gray">OUR STORY WILL GO ON</div>
+            <div className="gray">OUR STORY WILL GO ON</div>
         </div>
         </div>
         <SubCircle />

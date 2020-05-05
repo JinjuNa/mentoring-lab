@@ -10,6 +10,7 @@ import icon_recruit04 from '../assets/icon_recruit04.png';
 
 function Recruit() {
     const title = "RECRUIT";
+    // const "RECRUIT"의 클래스네임 어떻게?
     const item = [
         {
             num : "01",
@@ -100,8 +101,14 @@ function Recruit() {
         <SubTitle title={title} />
         <div className="recruit">
         <div className="contents">
-            
-            지원 내용
+            <div className="contents-header">
+            <h2>월급만 필요하다면 지원하지 마세요<br/>
+            우리는 의미 있는 일을 하려고 합니다<br/>
+            대신 함께 할 수 있다면 업계 최고대우를 보장합니다.</h2>
+            <p className="par">교육에 대한 열정이 남다르고 아이디어가 넘쳐나는 사람들은<br/>
+            절대로 현재에 머무르려고 하지 않는다고 믿습니다.<br/><br/>
+            그래서 저희 회사에는 없는 것이 다음과 같습니다.</p>
+            </div>
             <div className="recruit-item-container">
             <RecruitItem num={item[0].num} txt = {item[0].txt} img={item[0].img} detail={item[0].detail} />
             <RecruitItem num={item[1].num} txt = {item[1].txt} img={item[1].img} detail={item[1].detail} />
@@ -113,7 +120,6 @@ function Recruit() {
                 <Department txt={dep[1].txt} detail={dep[1].detail} content={dep[1].content} /> 
                 <Department txt={dep[2].txt} detail={dep[2].detail} content={dep[2].content} /> 
             </div>
-
         </div>
         </div>
         <SubCircle />
