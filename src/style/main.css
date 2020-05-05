@@ -25,4 +25,13 @@
     flex:50%;
 }
 
+.department-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.department{
+    width:33%;
+}
+
 
