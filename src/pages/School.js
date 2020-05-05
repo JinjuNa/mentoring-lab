@@ -24,7 +24,14 @@ function School({match}) {
         <div className="school">
         <div className="contents">
             <h2>매월 격주마다 2회, 1년간 운영되는 아카데미<br />
-            오프라인 토론과 미션들을 통해 생각하며 배웁니다</h2>
+            <span className="underline-container">
+                <span className="underline-txt">오프라인 토론과 미션들을</span>
+                <span className="underline"></span>
+            </span>
+            <span className="underline-container">
+                <span className="underline-txt">&nbsp;통해 생각하며 배웁니다</span>
+            </span>
+             </h2>
             <p className="par">한국의 교육은 주로 지식적으로 배우는 학(學) 위주로 배웁니다.<br />
             하지만 유럽과 미국은 이 학과 습(習)을 병행하며 배웁니다.<br />
             몸에 익혀지는 시간을 통해 자신의 적성과 강점에 맞는지를<br />

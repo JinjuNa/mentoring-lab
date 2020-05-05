@@ -27,14 +27,14 @@ function Menu() {
     <ul className="gnb" id="gnb">
         <li>
           메인메뉴 아이템
-          <div className="underline"></div>
+          {/* <div className="underline"></span> */}
         </li>
     </ul>
 
     <ul className="subMenu">
       <li>
         서브메뉴 아이템
-        <div className="underline"></div>
+        {/* <div className="underline"></span> */}
       </li>
     </ul>
     </div>

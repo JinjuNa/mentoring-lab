@@ -7,8 +7,34 @@
 .contents{
     width: 1165px;
     margin:0 auto;
+    color : #33489b;
+    text-align: center;
 }
 
+.contents .par{
+    margin: 40px 0;
+}
+
+/* 형광펜 효과 */
+
+.underline-container{
+    width:fit-content;
+    display: inline-block;
+}
+
+.underline-txt{
+    display: block;
+    transform: translate(0, 10px);
+}
+
+.underline{
+    display: block;
+    width: 100%;
+    padding:0 10px;
+    height: 16px;
+    background-color: #c4f580;
+    margin-left: -10px;
+}
 
 /* vision */
 
@@ -105,6 +131,7 @@
 .school-menu{
     display: flex;
     border-bottom: 2px solid #3642c6;
+    margin-top:100px;
 }
 
 .school-menu li{
@@ -121,6 +148,10 @@
 
 .school-title img{
     width:100%;
+}
+
+.school-content-underline{
+    margin-top: 70px;
 }
 /* recruit */
 .recruit-item-container{

@@ -11,7 +11,9 @@ function MenuMobile() {
         <div className="menuMobileWrap">
             <ul className="gnb" id="gnbM">
                 <li>
-                    <a href="/vision">VISION<div className="underline"></div></a>
+                    <a href="/vision">
+                        VISION<div className="underline"></div>
+                    </a>
                 </li>
                 <li>
                     <a href="/history">HISTORY<div className="underline"></div></a>

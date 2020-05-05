@@ -1,14 +1,99 @@
-.curri-cercle{
+.curriculum-container{
+    width:720px;
+    margin: 0 auto;
+}
+
+.curriculum h4{
+    margin: 70px 0;
+    font-size: 20px;
+    font-weight: 800;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+}
+
+.curriculum h4 img{
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.curriculum h4.curri-right{
+    text-align: right;
+}
+
+.curriculum h4.curri-left{
+    text-align: left;
+}
+
+.curri-item-container{
+    display: flex;
+}
+
+.curri-item{
+    position: relative;
+}
+
+.curri-circle{
+    margin: 0 15px;
     width:110px;
     height: 110px;
     border-radius: 50%;
     border: 5px solid #33489b;
+    text-align: center;
+    position: relative;
 }
 
-.curri-cercle.blue{
+.curri-circle.blue{
     background-color: #33489b;
+    color : #c4f580;
 }
 
-.curri-cercle.green{
+.curri-circle.green{
     background-color: #c4f580;
+}
+
+.curri-circle-txt{
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    width:110px;
+}
+
+
+/* 탑메모리의 정리 조절 */
+.curriculum-container .curriculum:nth-child(1) .curri-item:nth-child(2) .curri-circle-txt{
+    margin-top:10px;
+}
+
+.curri-num{
+    position: absolute;
+    top : -20px;
+    left: 22px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+
+.curri-detail{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.curriculum-container .curriculum:nth-child(4){
+    text-align: left;
+}
+.curriculum-container .curriculum:nth-child(4) h4{
+    margin-bottom: 10px;
+}
+
+.curriculum-container .curriculum:nth-child(4) h5{
+    margin-left:20px;
+}
+
+.curriculum-container .curriculum:nth-child(4)>div{
+    margin-left:20px;
+}
+
+.curriculum-container .curriculum:nth-child(4) .num{
+    font-weight: 900;
 }

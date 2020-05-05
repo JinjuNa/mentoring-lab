@@ -1,16 +1,13 @@
 import React from 'react';
 import '../App.css';
+import './School.css';
 
-function SchoolTitle({txt, img, detail}) {
+function SchoolTitle({txt, img}) {
   return (
     <div className="school-title">
-        <p>SCHOOL PROCESS</p>
-        <h3>{txt}</h3>
+        <p className="color-green f-13">SCHOOL PROCESS</p>
+        <h3 className="f-25">{txt}</h3>
         <img src={img} alt="school-title-img" />
-        <div className="school-title-detail">
-            {detail[0]}<br/>
-            {detail[1]}
-        </div> 
     </div>
   );
 }

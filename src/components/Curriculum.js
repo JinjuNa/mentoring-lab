@@ -1,6 +1,10 @@
 import React from 'react';
 import './Curriculum.css';
 import CurriItem from './CurriItem';
+import curri_icon1 from '../assets/curri_icon1.png';
+import curri_icon2 from '../assets/curri_icon2.png';
+import curri_icon3 from '../assets/curri_icon3.png';
+import curri_icon4 from '../assets/curri_icon4.png';
 
 function Curriculum() {
   // num, txt, detail, color
@@ -103,22 +107,40 @@ function Curriculum() {
   return (
     <div className="curriculum-container">
       <div className="curriculum">
-        <h4>자아발견과정</h4>
+        <h4 className="curri-left"><img src={curri_icon1} alt="커리큘럼 아이콘" />자아발견과정</h4>
+        <div className="curri-item-container">
         {curriData1.map((data)=>{
             return <CurriItem data={data} />
         })}
+        </div>
       </div>
       <div className="curriculum">
-      <h4>비전발견과정</h4>
-        {curriData2.map((data)=>{
-            return <CurriItem data={data} />
-        })}
+        <h4 className="curri-right">비전발견과정<img src={curri_icon2} alt="커리큘럼 아이콘" /></h4>
+        <div className="curri-item-container">
+          {curriData2.map((data)=>{
+              return <CurriItem data={data} />
+          })}
+        </div>
       </div>
       <div className="curriculum">
-      <h4>멘토발견과정</h4>
-        {curriData3.map((data)=>{
-            return <CurriItem data={data} />
-        })}
+        <h4 className="curri-right">멘토발견과정<img src={curri_icon3} alt="커리큘럼 아이콘" /></h4>
+        <div className="curri-item-container">
+          {curriData3.map((data)=>{
+              return <CurriItem data={data} />
+          })}
+        </div>
+      </div>
+      <div className="curriculum">
+        <h4 className="curri-left"><img src={curri_icon4} alt="커리큘럼 아이콘" />수료식 및 아동후원 결연식</h4>
+        <h5 className="f-18">12개월간의 훈련과정 전체발표 및 취약계층 아동후원 결연</h5>
+        <div>
+          <span className="num f-35">1</span>
+          <span>비전스쿨에서의 변화된 모습을 PPT로 발표</span>
+        </div>
+        <div>
+          <span className="num f-35">2</span>
+          <span>취약계층 아동과의 결연을 통해 매월 1만원 기부활동</span>
+        </div>
       </div>
         
     </div>

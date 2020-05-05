@@ -1,0 +1,22 @@
+/* schoolTitle */
+
+.school-title{
+    text-align: center;
+    margin-top:70px;
+}
+
+.school-title h3{
+    margin-top:14px;
+    margin-bottom:40px;
+}
+
+/* school content */
+
+.school-content{
+    text-align: center;
+}
+
+.school-content .par{
+    margin: 40px 0;
+}
+

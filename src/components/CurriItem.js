@@ -4,13 +4,15 @@ import './Curriculum.css';
 function CurriItem({ data }) {
   return (
     <div className="curri-item">
-        <span>{data.num}</span>
-        <div className={"curri-cercle " + data.color}>
+        <span className="f-35 curri-num">{data.num}</span>
+        <div className={"curri-circle " + data.color}>
+          <div className="curri-circle-txt f-14">
             {data.txt[0]}<br />
             {data.txt[1]}<br />
             {data.txt[2]}
+          </div>
         </div>
-        <div className="curri-detail">
+        <div className="curri-detail f-14">
             {data.detail[0]}<br />
             {data.detail[1]}<br />
             {data.detail[2]}<br />
