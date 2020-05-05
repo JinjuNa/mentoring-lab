@@ -1,0 +1,14 @@
+.curri-cercle{
+    width:110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid #33489b;
+}
+
+.curri-cercle.blue{
+    background-color: #33489b;
+}
+
+.curri-cercle.green{
+    background-color: #c4f580;
+}
