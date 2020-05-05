@@ -18,11 +18,11 @@
 /* recruit */
 .recruit-item-container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .recruit-item{
     flex:50%;
-
 }
 
 
