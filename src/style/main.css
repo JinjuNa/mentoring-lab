@@ -13,6 +13,8 @@
 
 .contents .par{
     margin: 40px 0;
+    font-size:16px;
+    line-height : 190%;
 }
 
 /* 형광펜 효과 */
@@ -153,23 +155,97 @@
 .school-content-underline{
     margin-top: 70px;
 }
+
 /* recruit */
+
+.contents-header{
+    line-height : 250%;
+}
+
+.par{
+    font-size:16px;
+    line-height : 190%;
+}
+
 .recruit-item-container{
     display: flex;
     flex-wrap: wrap;
+    margin-top:50px;
+    padding-bottom:70px;
+    border-bottom-color: gray;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
 }
 
 .recruit-item{
     flex:50%;
+    width:435px;    /* 이거 안먹음 450px로 고정됨   */
+    height:390px;
+    padding:30px 0px;
+}
+
+.recruit-item .icon{
+    width:200px;
+    height:200px;
+    margin:auto;
+    /* 이미지를 너비,높이 채우기, 가운데두는 코드작성 */
+}
+
+.recruit-item .num{
+    font-weight: bolder;
+    color : #c4f580;
+    padding-top:30px;
+}
+
+.recruit-item .txt{
+    font-weight:bolder;
+    padding-top:60px;
+    padding-left: 20px;
+}
+
+.recruit-item-detail{
+    line-height : 190%;
+    color:gray;
+    /* 중간에 있는 글씨 색 바꾸기 */
+    padding-top:35px;
+    height: 80px;
 }
 
 .department-container{
     display: flex;
     justify-content: space-between;
+    margin-top:120px;
+    margin-bottom:100px;
 }
 
 .department{
     width:33%;
+    margin-right:50px;
+}
+/* .department:first-child{
+    margin-left: 0;
+} */
+.department:last-child{
+    margin-right: 0;
+}
+
+.department .txt{
+    margin-bottom: 45px;
+    font-weight:bolder;
+}
+
+.department-detail{
+    padding-bottom: 30px;
+    border-bottom-color: #c4f580;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    /* 중앙만 표시되도록 해야함 */
+    line-height : 190%;
+}
+
+.department-content{
+    margin:30px 0;
+    line-height : 190%;
 }
 
 

@@ -102,7 +102,7 @@ function Recruit() {
         <div className="recruit">
         <div className="contents">
             <div className="contents-header">
-            <h2>월급만 필요하다면 지원하지 마세요<br/>
+            <h2 className="f-26">월급만 필요하다면 지원하지 마세요<br/>
             우리는 의미 있는 일을 하려고 합니다<br/>
             대신 함께 할 수 있다면 업계 최고대우를 보장합니다.</h2>
             <p className="par">교육에 대한 열정이 남다르고 아이디어가 넘쳐나는 사람들은<br/>
