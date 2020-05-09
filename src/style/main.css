@@ -72,10 +72,10 @@ h2 .underline-bottom{
 
 .button{
     width:200px;
-    height: 40px;
+    height: 35px;
     border-radius: 20px;
     text-align: center;
-    line-height: 40px;
+    line-height: 35px;
     display: inline-block;
 }
 
@@ -162,6 +162,37 @@ h1{
 
 /* vision */
 
+.vision .diagram-container{
+    position: relative;
+}
+
+.vision .diagram-text{
+    position: absolute;
+    width:160px;
+}
+
+.vision .diagram-text.top{
+    top : 55px;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.vision .diagram-text.left{
+    bottom : 60px;
+    left: 50%;
+    transform: translateX(-235px);
+}
+
+.vision .diagram-text.right{
+    bottom : 60px;
+    right: 50%;
+    transform: translateX(235px);
+}
+
+.vision .button {
+    border: 2px solid #c4f580;
+}
 
 /* history */
 .history .contents {
