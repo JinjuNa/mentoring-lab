@@ -12,8 +12,8 @@
 }
 
 .contents .par{
-    margin: 40px 0;
-    font-size:16px;
+    margin : 60px 0;
+    font-size : 18px;
     line-height : 190%;
 }
 
@@ -67,6 +67,7 @@ h2 .underline-bottom{
 
 
 /* history */
+
 .history .contents {
     position: relative;
 }
@@ -154,7 +155,6 @@ h2 .underline-bottom{
 
 /* school */
 
-
 .school-menu{
     display: flex;
     border-bottom: 2px solid #3642c6;
@@ -185,11 +185,6 @@ h2 .underline-bottom{
 
 .contents-header{
     line-height : 250%;
-}
-
-.par{
-    font-size:16px;
-    line-height : 190%;
 }
 
 .recruit-item-container{
@@ -246,12 +241,11 @@ h2 .underline-bottom{
     width:33%;
     margin-right:50px;
 }
-/* .department:first-child{
-    margin-left: 0;
-} */
+
 .department:last-child{
     margin-right: 0;
 }
+
 .department .txt-container{
     background-image: url(../assets/circle.png);
     padding-top: 10px;
@@ -260,6 +254,7 @@ h2 .underline-bottom{
     background-position: right top;
     display: inline-block;
 }
+
 .department .txt{
     margin-bottom: 45px;
     font-weight:bolder;
@@ -268,10 +263,10 @@ h2 .underline-bottom{
 
 .department-detail{
     padding-bottom: 30px;
-    /* border-bottom-color: #c4f580;
-    border-bottom-style: solid;
-    border-bottom-width: 2px; */
     /* 중앙만 표시되도록 해야함 */
+        /* border-bottom-color: #c4f580;
+        border-bottom-style: solid;
+        border-bottom-width: 2px; */
     height: 120px;
     line-height : 190%;
 }
@@ -287,6 +282,55 @@ h2 .underline-bottom{
     margin:30px 0;
     line-height : 190%;
 }
+
+/* vivaldi */
+
+/* .program-title ::after{
+    display: block;
+    clear: both;
+    content:'';
+    
+} */
+
+.program-title .icon{
+    width : 180px;
+    height : 180px;
+    margin-top : 140px;
+    /* float : left; */
+    display : inline-block;
+    /* 왼쪽으로 40px 정도 옮기기 */
+}
+
+.program-title .txt{
+    width : 180px;
+    margin-left : 40px;
+    text-align : left;
+    display : inline-block;
+    /* 왼쪽으로 40px 정도 옮기기 */
+    line-height : 160%;
+    font-weight : bolder;
+    
+}
+
+.program-title .program-detail{
+    margin-top : 60px;
+    text-align : center;
+    line-height : 170%;
+    font-weight : bolder;
+}
+
+.contents .download{
+    width:200px;
+    height: 40px;
+    margin : 0 auto;
+    font-size : 15px;
+    border-style: solid;
+    border-color: #c4f580;
+    /* border-width: thick; */
+    line-height : 260%;
+    border-radius: 150px;
+}
+
 
 
 /* 반응형 */

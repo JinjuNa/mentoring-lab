@@ -13,10 +13,16 @@ function Vivaldi() {
   return (
     <main>
         <SubTitle title={title} />
-        <div className="kgongvi">
+        <div className="vivaldi">
         <div className="contents">
-            <ProgramTitle txt = {txt} img = {img} detail={detail}/>
-            비발디 내용
+          <ProgramTitle txt = {txt} img = {img} detail={detail}/>
+          <div className="par">
+            아이스브레이킹,강연,공연,네트워킹 파티로 이어지는<br/>
+            알짜배기 하루를 보내고 싶다면 강력 추천합니다.<br/><br/>
+            격월 1회로 행사가 진행되며 연령,성별,직업에 상관없이<br/>
+            누구든 참여 가능합니다.
+          </div>
+          <div className="download"><a href="#">연간멤버십 할인받기</a></div>
         </div>
         </div>
         <SubCircle />

@@ -24,7 +24,7 @@ function Recruit() {
         },
         {
             num : "02",
-            txt : "야근이 없습니다.",
+            txt : "야근이 없습니다",
             img : icon_recruit02,
             detail : [
                 "모든 직원이 재택근무를 하기 때문에 야근이 없습니다. ",
@@ -34,7 +34,7 @@ function Recruit() {
         },
         {
             num : "03",
-            txt : "회식이 없습니다.",
+            txt : "회식이 없습니다",
             img : icon_recruit03,
             detail : [
                 "의무적인 회식문화 자체가 없습니다. ",
@@ -44,7 +44,7 @@ function Recruit() {
         },
         {
             num : "04",
-            txt : "경력직이 없습니다.",
+            txt : "경력직이 없습니다",
             img : icon_recruit04,
             detail : [
                 "모든 직원은 3년 안에 독립(창업)하는 것을 목표로 합니다. ",
@@ -71,7 +71,7 @@ function Recruit() {
         {
             txt : "IT사업부",
             detail : [
-                "IT사업부는 온라인 스쿨과정과 개발과 운영 ",
+                "IT사업부는 온라인 스쿨과정과 개발과 운영에",
                 "필요한 서비스를 제공하는 업무를 담당하며, ",
                 "추후 IT 스타트업으로의 독립을 목표로 합니다."
             ],
