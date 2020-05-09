@@ -16,7 +16,8 @@ const Slide = styled.div`
 `;
 
 const Container = styled.div`
-  width: 100%;
+  width: 1165px;
+  margin:0 auto;
   overflow: hidden;
   background-color : #493fd3;
   background-image: url("${effect}");
@@ -40,6 +41,7 @@ const PagerContainer = styled.ul`
     font-size:20px;
     list-style:none;
     cursor: pointer;
+    z-index:100;
   }
 
   & li.active{
