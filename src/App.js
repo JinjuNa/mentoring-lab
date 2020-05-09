@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Header />
       <Menu />
-      <MenuMobile />
+      {/* <MenuMobile /> */}
       <Router>
       <Switch>
           <Route exact path="/" component={Main}/>
