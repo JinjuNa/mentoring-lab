@@ -1,0 +1,80 @@
+@charset 'uft-8';
+* {
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Noto Sans KR';
+}
+
+ul, li{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.App{
+  position: relative;
+}
+
+/* font */
+
+.f-13{
+  font-size: 13px;
+}
+
+.f-14{
+  font-size: 14px;
+}
+
+.f-15{
+  font-size: 15px;
+}
+
+.f-16{
+  font-size: 16px;
+}
+
+.f-18{
+  font-size: 18px;
+}
+
+.f-24{
+  font-size: 24px;
+}
+
+.f-25{
+  font-size: 25px;
+}
+
+.f-26{
+  font-size: 25px;
+}
+
+.f-28{
+  font-size: 28px;
+}
+
+.f-30{
+  font-size: 30px;
+}
+
+.f-35{
+  font-size: 35px;
+}
+
+.f-36{
+  font-size: 36px;
+}
+
+.f-60{
+  font-size: 60px;
+}
+
+.color-green{
+  color : #c4f580;
+}
