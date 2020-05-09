@@ -1,7 +1,7 @@
 import React from 'react';
 import SubTitle from '../components/SubTitle';
 import SubCircle from '../components/SubCircle';
-import vision_diagram from "../assets/vision_diagram.png";
+import vision_background from "../assets/vision_background.png";
 
 function Vision() {
     const title = "VISION";
@@ -13,8 +13,20 @@ function Vision() {
         <div className="contents">
             <h2>실력과 인성을 겸비한 청년들을 양성하는 곳,<br />
             여기는 MENTORING LAB 입니다.</h2>
-            <div className="diagram">
-                <img src={vision_diagram} alt="vision_diagram"/>
+            <div className="diagram-container">
+                <img src={vision_background} alt="vision_background"/>
+                <div className="diagram-text top">
+                    미래사회형
+                    <br />진로교육의 실현
+                </div>
+                <div className="diagram-text left">
+                    수요인력 양성으로
+                    <br />통합사회 추구
+                </div>
+                <div className="diagram-text right">
+                    기업가정신 기반한
+                    <br />자립형 인간 양성
+                </div>
             </div>
             <p className="par">사람들에게 잘 보이기 위한 삶에서 벗어나서<br/>
                 자신만의 삶을 살아가려면 자신만의 기준이 필요합니다.<br/>
@@ -25,7 +37,7 @@ function Vision() {
                 모든 인생이 탁월한 인생으로 살아갈 때 까지 MENTORING-LAB의<br/>
                 교육실험은 계속됩니다.
             </p>
-            <div className="download"><a href="/">회사소개서 다운로드</a></div>
+            <div className="button"><a href="/">회사소개서 다운로드</a></div>
         </div>
         </div>
         <SubCircle />

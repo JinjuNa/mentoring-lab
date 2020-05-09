@@ -12,34 +12,34 @@ function MenuMobile() {
             <ul className="gnb" id="gnbM">
                 <li>
                     <a href="/vision">
-                        VISION<div className="underline"></div>
+                        VISION
                     </a>
                 </li>
                 <li>
-                    <a href="/history">HISTORY<div className="underline"></div></a>
+                    <a href="/history">HISTORY</a>
                 </li>
                 <li>
-                    <a href="/program/school/vision">PROGRAM<div className="underline"></div></a>
+                    <a href="/program/school/vision">PROGRAM</a>
                     <ul className="subMenu">
                         <li>
-                            <a href="/program/school/vision">스쿨과정<div className="underline"></div></a>
+                            <a href="/program/school/vision">스쿨과정</a>
                         </li>
                         <li>
-                            <a href="/program/vivaldi">비발디<div className="underline"></div></a>
+                            <a href="/program/vivaldi">비발디</a>
                         </li>
                         <li>
-                            <a href="/program/kgongvi">크공비<div className="underline"></div></a>
+                            <a href="/program/kgongvi">크공비</a>
                         </li>
                         <li>
-                            <a href="/program/silkroad">실크로드<div className="underline"></div></a>
+                            <a href="/program/silkroad">실크로드</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/recruit">RECRUIT<div className="underline"></div></a>
+                    <a href="/recruit">RECRUIT</a>
                 </li>
                 <li>
-                    <a href="/contact">CONTACT<div className="underline"></div></a>
+                    <a href="/contact">CONTACT</a>
                 </li>
             </ul>
         </div>

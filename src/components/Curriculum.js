@@ -113,6 +113,7 @@ function Curriculum() {
             return <CurriItem data={data} />
         })}
         </div>
+        <div className="curri-line"></div>
       </div>
       <div className="curriculum">
         <h4 className="curri-right">비전발견과정<img src={curri_icon2} alt="커리큘럼 아이콘" /></h4>
@@ -121,6 +122,7 @@ function Curriculum() {
               return <CurriItem data={data} />
           })}
         </div>
+        <div className="curri-line"></div>
       </div>
       <div className="curriculum">
         <h4 className="curri-right">멘토발견과정<img src={curri_icon3} alt="커리큘럼 아이콘" /></h4>
@@ -129,6 +131,7 @@ function Curriculum() {
               return <CurriItem data={data} />
           })}
         </div>
+        <div className="curri-line"></div>
       </div>
       <div className="curriculum">
         <h4 className="curri-left"><img src={curri_icon4} alt="커리큘럼 아이콘" />수료식 및 아동후원 결연식</h4>
