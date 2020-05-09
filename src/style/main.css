@@ -4,6 +4,11 @@
 
 
 /* 공용 */
+.wrap{
+    width: 1165px;
+    margin:0 auto;
+}
+
 .contents{
     width: 1165px;
     margin:0 auto;

@@ -8,7 +8,7 @@ body{
   font-family: 'Noto Sans KR';
 }
 
-ul{
+ul, li{
   list-style: none;
 }
 

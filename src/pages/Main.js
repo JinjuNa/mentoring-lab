@@ -21,8 +21,8 @@ function Main() {
               </div>  
           </div>
         </div>
+        <MainSlider />
       </div>
-      <MainSlider />
     </main>
   );
 }
