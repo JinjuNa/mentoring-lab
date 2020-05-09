@@ -22,11 +22,22 @@
 .underline-container{
     width:fit-content;
     display: inline-block;
+    transform: translate(0, -10px);
+}
+
+h2 .underline-container{
+    width:fit-content;
+    display: inline-block;
+    transform: translate(0, -17px);
 }
 
 .underline-txt{
     display: block;
     transform: translate(0, 10px);
+}
+
+h2 .underline-txt{
+    transform: translate(0, 17px);
 }
 
 .underline{
@@ -36,6 +47,20 @@
     height: 16px;
     background-color: #c4f580;
     margin-left: -10px;
+}
+
+h2 .underline{
+    padding:0 5px;
+    margin-left: -5px;
+}
+
+.underline-bottom{
+    display: block;
+    transform: translateY(-10px);
+}
+
+h2 .underline-bottom{
+    transform: translateY(-17px);
 }
 
 /* vision */
@@ -172,14 +197,13 @@
     flex-wrap: wrap;
     margin-top:50px;
     padding-bottom:70px;
-    border-bottom-color: gray;
+    border-bottom-color: #a8a8a8;
     border-bottom-style: dotted;
     border-bottom-width: 2px;
 }
 
 .recruit-item{
     flex:50%;
-    width:435px;    /* 이거 안먹음 450px로 고정됨   */
     height:390px;
     padding:30px 0px;
 }
@@ -195,12 +219,12 @@
     font-weight: bolder;
     color : #c4f580;
     padding-top:30px;
+    padding-right: 20px;
 }
 
 .recruit-item .txt{
     font-weight:bolder;
     padding-top:60px;
-    padding-left: 20px;
 }
 
 .recruit-item-detail{
@@ -228,19 +252,35 @@
 .department:last-child{
     margin-right: 0;
 }
-
+.department .txt-container{
+    background-image: url(../assets/circle.png);
+    padding-top: 10px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: inline-block;
+}
 .department .txt{
     margin-bottom: 45px;
     font-weight:bolder;
+    
 }
 
 .department-detail{
     padding-bottom: 30px;
-    border-bottom-color: #c4f580;
+    /* border-bottom-color: #c4f580;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 2px; */
     /* 중앙만 표시되도록 해야함 */
+    height: 120px;
     line-height : 190%;
+}
+
+.section-line{
+    display: inline-block;
+    width:35px;
+    height: 2px;
+    background-color: #c4f580;
 }
 
 .department-content{

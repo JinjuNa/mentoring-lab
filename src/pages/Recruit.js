@@ -102,9 +102,24 @@ function Recruit() {
         <div className="recruit">
         <div className="contents">
             <div className="contents-header">
-            <h2 className="f-26">월급만 필요하다면 지원하지 마세요<br/>
-            우리는 의미 있는 일을 하려고 합니다<br/>
-            대신 함께 할 수 있다면 업계 최고대우를 보장합니다.</h2>
+            <h2 className="f-26">
+                월급만 필요하다면 지원하지 마세요<br/>
+                <span className="underline-container">
+                <span className="underline-txt">
+                우리는&nbsp;
+                </span>
+                </span>
+                <span className="underline-container">
+                    <span className="underline-txt">의미 있는 일을</span>
+                    <span className="underline"></span>
+                </span>
+                <span className="underline-container">
+                <span className="underline-txt">
+                &nbsp;하려고 합니다
+                </span>
+                </span>
+             <br/>
+            <span className="underline-bottom">대신 함께 할 수 있다면 업계 최고대우를 보장합니다.</span></h2>
             <p className="par">교육에 대한 열정이 남다르고 아이디어가 넘쳐나는 사람들은<br/>
             절대로 현재에 머무르려고 하지 않는다고 믿습니다.<br/><br/>
             그래서 저희 회사에는 없는 것이 다음과 같습니다.</p>
