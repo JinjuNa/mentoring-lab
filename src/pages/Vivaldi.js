@@ -22,7 +22,7 @@ function Vivaldi() {
             격월 1회로 행사가 진행되며 연령,성별,직업에 상관없이<br/>
             누구든 참여 가능합니다.
           </div>
-          <div className="download"><a href="#">연간멤버십 할인받기</a></div>
+          <div className="download"><a href="/">연간멤버십 할인받기</a></div>
         </div>
         </div>
         <SubCircle />

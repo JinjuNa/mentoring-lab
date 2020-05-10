@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 function Main() {
   return (
-    <main>
+    <main className="main">
       <div className="wrap">
         <h1><a href="/"><img src={logo} alt="메인로고" /></a></h1>
         <div className="mainlink-wrap">

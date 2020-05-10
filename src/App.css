@@ -19,6 +19,7 @@ a{
 
 .App{
   position: relative;
+  overflow-y: hidden;
 }
 
 /* font */
