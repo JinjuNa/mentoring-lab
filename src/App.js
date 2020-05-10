@@ -18,25 +18,27 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Header />
       <Menu />
       {/* <MenuMobile /> */}
       <Router>
       <Switch>
-          <Route exact path="/" component={Main}/>
-          <Route path="/vision" component={Vision}/>
-          <Route path="/history" component={History}/>
-          <Route path="/program/school/:keyword" component={School} />
-          <Route path="/program/vivaldi" component={Vivaldi} />
-          <Route path="/program/kgongvi" component={Kgongvi} />
-          <Route path="/program/silkroad" component={Silkroad} />
-          <Route path="/recruit" component={Recruit} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/" render={ (routerProps) => < Main routerProps={routerProps} />} />
+          <Route path="/vision" render={ (routerProps) => < Vision routerProps={routerProps} />} />
+          <Route path="/history" render={ (routerProps) => < History routerProps={routerProps} />} />
+          <Route path="/program/school/:keyword" render={ (routerProps) => < School routerProps={routerProps} />} />
+          <Route path="/program/vivaldi" render={ (routerProps) => < Vivaldi routerProps={routerProps} />} />
+          <Route path="/program/kgongvi" render={ (routerProps) => < Kgongvi routerProps={routerProps} />}  />
+          <Route path="/program/silkroad" render={ (routerProps) => < Silkroad routerProps={routerProps} />}  />
+          <Route path="/recruit" render={ (routerProps) => < Recruit routerProps={routerProps} />}  />
+          <Route path="/contact" render={ (routerProps) => < Contact routerProps={routerProps} />}  />
       </Switch>
       </Router>
       <Footer />
     </div>
+    </Router>
   );
 }
 
