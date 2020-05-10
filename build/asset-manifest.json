@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mentoring-lab/static/css/main.7e15db8d.chunk.css",
-    "main.js": "/mentoring-lab/static/js/main.a3cc2d23.chunk.js",
-    "main.js.map": "/mentoring-lab/static/js/main.a3cc2d23.chunk.js.map",
-    "runtime-main.js": "/mentoring-lab/static/js/runtime-main.afcf1cd1.js",
-    "runtime-main.js.map": "/mentoring-lab/static/js/runtime-main.afcf1cd1.js.map",
-    "static/js/2.bc242db3.chunk.js": "/mentoring-lab/static/js/2.bc242db3.chunk.js",
-    "static/js/2.bc242db3.chunk.js.map": "/mentoring-lab/static/js/2.bc242db3.chunk.js.map",
+    "main.css": "/mentoring-lab/static/css/main.11154ef3.chunk.css",
+    "main.js": "/mentoring-lab/static/js/main.35708495.chunk.js",
+    "main.js.map": "/mentoring-lab/static/js/main.35708495.chunk.js.map",
+    "runtime-main.js": "/mentoring-lab/static/js/runtime-main.c6014a29.js",
+    "runtime-main.js.map": "/mentoring-lab/static/js/runtime-main.c6014a29.js.map",
+    "static/js/2.cfb7f8da.chunk.js": "/mentoring-lab/static/js/2.cfb7f8da.chunk.js",
+    "static/js/2.cfb7f8da.chunk.js.map": "/mentoring-lab/static/js/2.cfb7f8da.chunk.js.map",
     "index.html": "/mentoring-lab/index.html",
-    "precache-manifest.06efd7141f61b33c991741f614b02535.js": "/mentoring-lab/precache-manifest.06efd7141f61b33c991741f614b02535.js",
+    "precache-manifest.c08360d96901296dba741fca12fab57f.js": "/mentoring-lab/precache-manifest.c08360d96901296dba741fca12fab57f.js",
     "service-worker.js": "/mentoring-lab/service-worker.js",
-    "static/css/main.7e15db8d.chunk.css.map": "/mentoring-lab/static/css/main.7e15db8d.chunk.css.map",
-    "static/js/2.bc242db3.chunk.js.LICENSE.txt": "/mentoring-lab/static/js/2.bc242db3.chunk.js.LICENSE.txt",
+    "static/css/main.11154ef3.chunk.css.map": "/mentoring-lab/static/css/main.11154ef3.chunk.css.map",
+    "static/js/2.cfb7f8da.chunk.js.LICENSE.txt": "/mentoring-lab/static/js/2.cfb7f8da.chunk.js.LICENSE.txt",
     "static/media/main.css": "/mentoring-lab/static/media/background.93d81669.png",
     "static/media/circle_blue.png": "/mentoring-lab/static/media/circle_blue.5aacbba3.png",
     "static/media/circle_green.png": "/mentoring-lab/static/media/circle_green.e45d1017.png",
@@ -37,9 +37,9 @@
     "static/media/visionschool.png": "/mentoring-lab/static/media/visionschool.80fa6fe4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.afcf1cd1.js",
-    "static/js/2.bc242db3.chunk.js",
-    "static/css/main.7e15db8d.chunk.css",
-    "static/js/main.a3cc2d23.chunk.js"
+    "static/js/runtime-main.c6014a29.js",
+    "static/js/2.cfb7f8da.chunk.js",
+    "static/css/main.11154ef3.chunk.css",
+    "static/js/main.35708495.chunk.js"
   ]
 }
