@@ -25,17 +25,19 @@ function Menu() {
       <span></span>
     </div>
     <ul className="gnb" id="gnb">
-        <li>
-          메인메뉴 아이템
-          {/* <div className="underline"></span> */}
-        </li>
+      {menu.map((menu)=>{
+        return(
+          <li><a href={menu.url}>{menu.text}</a></li>
+        )
+      })}
     </ul>
 
     <ul className="subMenu">
-      <li>
-        서브메뉴 아이템
-        {/* <div className="underline"></span> */}
-      </li>
+      {submenu.map((menu)=>{
+        return(
+          <li><a href={menu.url}>{menu.text}</a></li>
+        )
+      })}
     </ul>
     </div>
 
