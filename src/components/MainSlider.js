@@ -61,16 +61,12 @@ const CarouselComponent = ({slideItem}) =>{
 
 
 const TOTAL_SLIDES = 3;
-var active1 = ''
-var active2 = ''
-var active3 = ''
-var active4 = ''
 
 const MainSlider = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slideRef = useRef(null);
+    const [activePage, setActivePage] = useState(1);
     
-
     const slideItem = [
       {num : 1, img : slide1},
       {num : 2, img : slide2},
@@ -79,30 +75,20 @@ const MainSlider = () => {
     ]
 
     const slideContent = slideItem.map((slideItem, index)=> <CarouselComponent slideItem={slideItem} key={index} />);
-    
-    function pager1(){
-      setCurrentSlide(0)
-    }
-
-    function pager2(){
-      setCurrentSlide(1)
-    }
-
-    function pager3(){
-      setCurrentSlide(2)
-    }
-
-    function pager4(){
-      setCurrentSlide(3)
-    }
-    
+    const pagerMenu = [
+      {id: 1, text : "01"},
+      {id: 2, text : "02"},
+      {id: 3, text : "03"},
+      {id: 4, text : "04"}
+    ];
     const Pager = (()=>{
       return (
         <PagerContainer>
-          <li onClick={()=>pager1()} className={active1} >01</li>
-          <li onClick={()=>pager2()} className={active2} >02</li>
-          <li onClick={()=>pager3()} className={active3} >03</li>
-          <li onClick={()=>pager4()} className={active4} >04</li>
+          {
+            pagerMenu.map((item, index) =>{
+                return <li key={index} className={activePage === item.id ? 'active' : ''} onClick={() => {setActivePage(item.id); setCurrentSlide(index)}}>{item.text}</li>
+            })
+          }
         </PagerContainer>
       )
     }) 
@@ -110,19 +96,7 @@ const MainSlider = () => {
     useEffect(() => {
         slideRef.current.style.transition = "all 0.5s ease-in-out";
         slideRef.current.style.transform = `translateX(-${currentSlide}00%)`; // 백틱을 사용하여 슬라이드로 이동하는 애니메이션을 만듭니다.
-        active1 = '';
-        active2 = '';
-        active3 = '';
-        active4 = '';
-        if(currentSlide === 0){
-          active1 = "active";
-        }else if(currentSlide === 1){
-          active2 = "active";
-        }else if(currentSlide === 2){
-          active3 = "active";
-        }else if(currentSlide === 3){
-          active4 = "active";
-        }
+        setActivePage(currentSlide+1)
       }, [currentSlide]);
     
     setInterval(() => {

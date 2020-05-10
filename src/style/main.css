@@ -42,16 +42,17 @@ header a img{
     top:40px;
     right: 70px;
     text-align: right;
+    z-index: 99;
 }
 
-.menu-button{
+.menu .menu-button{
     float:right;
     position: relative;
     z-index: 99;
     cursor: pointer;
     
 }
-.menu-button span{
+.menu .menu-button span{
     width:2.5rem;
     height: 4px;
     background-color: #000000;
@@ -59,18 +60,19 @@ header a img{
     margin-bottom: 10px;
 }
 
-.gnb, .sub-menu{
+.menu .gnb, .sub-menu{
     z-index: 10;
     position: relative;
 }
-.gnb{
+.menu .gnb{
     font-size: 18px;
     letter-spacing: 0.305em;
+    padding-top:80px;
 }
-.gnb>li{
+.menu .gnb>li{
     margin-bottom: 50px;
 }
-.gnb>li a{
+.menu .gnb>li a{
     position: relative;
 
 }
@@ -88,31 +90,31 @@ header a img{
 
   /* 폰트 모양, 크기에 따라서 left값 조정필요 */
 
-  .gnb>li:nth-child(1):hover .menu-underline{
+  .menu .gnb>li:nth-child(1):hover .menu-underline{
     width: 92px;
   }
 
-  .gnb>li:nth-child(2):hover .menu-underline{
+  .menu .gnb>li:nth-child(2):hover .menu-underline{
     width: 117px;
   }
 
-  .gnb>li:nth-child(3):hover .menu-underline{
+  .menu .gnb>li:nth-child(3):hover .menu-underline{
     width: 130px;
   }
 
-  .gnb>li:nth-child(4):hover .menu-underline{
+  .menu .gnb>li:nth-child(4):hover .menu-underline{
     width: 117px;
   }
 
-  .gnb>li:nth-child(5):hover .menu-underline{
+  .menu .gnb>li:nth-child(5):hover .menu-underline{
     width: 130px;
   }
 
   .sub-menu{
     display: none;
     position: absolute;
-    top:200px;
-    left:-80px;
+    top:230px;
+    left:-85px;
     font-size:18px;
   }
 
@@ -120,15 +122,94 @@ header a img{
     margin-bottom: 25px;
   }
 
-  .gnb{
+  .menu .gnb{
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
   }
-  .gnb.active{
+  .menu .gnb.active{
     opacity: 1;
     /* display: block; */
     /* animation: fade-in 1s; */
   }
+
+  .menuMobile{
+    display: none;
+    text-align: center;
+    position: fixed;
+    /* right: 16px;
+    top: 20px; */
+    width:100%;
+    z-index: 10;
+    margin-top:50px;
+
+    }
+    .menuMobile .menuButton{
+    position: absolute;
+    top:-35px;
+    right: 20px;
+
+    }
+    .menuMobile .menuButton span{
+    width:2.5rem;
+    height: 4px;
+    background-color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    }
+    .menuMobile .gnb{
+    padding-top:50px;
+    }
+    .menuMobile .gnb, .menuMobile .subMenu{
+    z-index: 10;
+    }
+    .menuMobile .gnb{
+    font-size: 1rem;
+    letter-spacing: 0.305em;
+    }
+    .menuMobile .gnb>li{
+    padding-bottom: 50px;
+
+    }
+
+    .menuMobile .gnb>li:nth-child(3){
+    padding-bottom: 25px;
+    }
+    .menuMobile .gnb>li a{
+    position: relative;
+
+    }
+    .menuMobile .underline{
+    width:0;
+    height: 15px;
+    background-color: #c4f580;
+    transition: all 1s;
+    position: absolute;
+    bottom: -3px;
+    left: -5px;
+    z-index: -1;
+    }
+
+    /* 폰트 모양, 크기에 따라서 left값 조정필요 */
+
+
+    .menuMobile .subMenu{
+    margin-top:25px;
+    }
+    .menuMobile .subMenu>li{
+    height: 50px;
+    line-height: 50px;
+    }
+
+    .menuMobile #gnbM{
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    background-color: white;
+    }
+    .menuMobile #gnbM.active{
+    opacity: 1;
+    /* display: block; */
+    /* animation: fade-in 1s; */
+    }
 
 /* 동그라미 효과 */
 
@@ -216,10 +297,49 @@ h2 .underline-bottom{
     display: inline-block;
 }
 
+/* sub-title */
+
+.sub-title{
+    padding-top:75px;
+    margin-left:255px;
+    margin-bottom:50px;
+}
+
+.title-text{
+    color: #3642c6;
+    /* margin-top:10px; */
+    margin-left:150px;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.sub-effect{
+    width:150px;
+}
+
+@media all and (max-width:1023px){
+    .title-text{
+        font-size: 17.5px;
+        margin-left:0;
+    }
+
+    .sub-title{
+        padding-top: 0;
+        margin-left:0;
+        text-align: center;
+    }
+
+    .sub-effect{
+        width:55px;
+    }
+}
+
 /* main */
 
 h1{
     text-align: center;
+    margin-bottom:30px;
 }
 
 .mainlink-wrap{
@@ -646,5 +766,19 @@ footer{
 } 
 
 @media all and (max-width:1024px) {
+    .menu{
+        display: none;
+    }
 
+    .menuMobile{
+        display: block;
+    }
+    .menuMobile .menuButton span{
+        width:25px;
+        height: 3px;
+        margin-bottom: 6px;
+    }
+    .menuMobile .subMenu{
+        background-color: #eeeeee;
+    }
 } 
