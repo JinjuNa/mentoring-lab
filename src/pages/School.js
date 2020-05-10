@@ -1,5 +1,5 @@
-import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import SubTitle from '../components/SubTitle';
 import SubCircle from '../components/SubCircle';
 import VisionSchool from '../components/VisionSchool';
@@ -7,16 +7,16 @@ import ParadigmSchool from '../components/ParadigmSchool';
 import EconomicSchool from '../components/EconomicSchool';
 import StartupSchool from '../components/StartupSchool';
 
-function School({match}) {
+function School() {
+    const [activeTab, setActiveTab] = useState(1);
     const title = "SHCOOL";
     const menu = [
-        {text : "비전스쿨", url : "/program/school/vision"},
-        {text : "패러다임스쿨", url : "/program/school/paradigm"},
-        {text : "경제스쿨", url : "/program/school/economic"},
-        {text : "창업스쿨", url : "/program/school/startup"}
+        {id : 1, text : "비전스쿨", url : "/program/school/vision"},
+        {id : 2, text : "패러다임스쿨", url : "/program/school/paradigm"},
+        {id : 3, text : "경제스쿨", url : "/program/school/economic"},
+        {id : 4, text : "창업스쿨", url : "/program/school/startup"}
     ];
-    const activePage = match.params.keyword;
-    console.log(activePage);
+
 
   return (
     <main>
@@ -40,14 +40,14 @@ function School({match}) {
             어느 하나 쉽지 않은 영역이지만 학과 습의 병행과 함께<br />
             그룹토론 수업으로 밀도있게 공부하면 그 동안 알지 못했던<br />
             새로운 배움의 장(場)을 경험할 수 있습니다.</p>
-
+            <Router>
             <ul className="school-menu">
             {menu.map((item, index)=>{
-                return <li key={index}><a href={item.url}>{item.text}</a></li>
+                return <li key={index} className={activeTab === item.id ? 'active' : ''} onClick={() => setActiveTab(item.id)}><Link to={item.url}>{item.text}</Link></li>
             })}
             </ul>
 
-            <Router>
+            
             <Switch>
                 <Route path="/program/school/vision" component={VisionSchool} />
                 <Route path="/program/school/paradigm" component={ParadigmSchool} />

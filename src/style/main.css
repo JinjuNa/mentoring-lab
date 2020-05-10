@@ -296,9 +296,15 @@ h1{
     line-height: 30px;
 }
 
-.school-menu li:first-child{
+.school-menu li.active{
     background-color: #3642c6;
     color:#c4f580;
+}
+
+.school-menu li a{
+    display: inline-block;
+    width:100%;
+    height: 100%;
 }
 
 .school-title img{

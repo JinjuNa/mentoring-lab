@@ -25,17 +25,17 @@ function Menu() {
       <span></span>
     </div>
     <ul className="gnb" id="gnb">
-      {menu.map((menu)=>{
+      {menu.map((menu, key)=>{
         return(
-          <li><a href={menu.url}>{menu.text}</a></li>
+          <li key={key}><a href={menu.url}>{menu.text}</a></li>
         )
       })}
     </ul>
 
     <ul className="subMenu">
-      {submenu.map((menu)=>{
+      {submenu.map((menu, key)=>{
         return(
-          <li><a href={menu.url}>{menu.text}</a></li>
+          <li key={key}><a href={menu.url}>{menu.text}</a></li>
         )
       })}
     </ul>
