@@ -16,12 +16,12 @@ function Kgongvi() {
         <div className="kgongvi">
         <div className="contents">
           <ProgramTitle txt = {txt} img = {img} detail={detail}/>
-          <div className="par">
+          <div className="par f-18">
             반찬가게 사장님에서부터 대기업 임원에 이르기까지 직업 전문인으로 살아가는 분들을<br/>
             한자리에 모셔서 간단한 토크쇼와 전담 인터뷰로 배움을 얻는 시간입니다.<br/><br/>
             분기별 1회로 행사가 진행되며 연령,성별,직업에 상관없이 누구든 참여 가능합니다.
           </div>
-          <div className="download"><a href="#">연간멤버십 할인받기</a></div>
+          {/* <div className="download"><a href="#">연간멤버십 할인받기</a></div> */}
         </div>
         </div>
         <SubCircle />
