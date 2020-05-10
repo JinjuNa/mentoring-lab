@@ -417,21 +417,12 @@ h1{
     line-height : 190%;
 }
 
-<<<<<<< HEAD
 /* vivaldi */
-
-/* .program-title ::after{
-    display: block;
-    clear: both;
-    content:'';
-    
-} */
 
 .program-title .icon{
     width : 180px;
     height : 180px;
     margin-top : 140px;
-    /* float : left; */
     display : inline-block;
     /* 왼쪽으로 40px 정도 옮기기 */
 }
@@ -466,8 +457,6 @@ h1{
     border-radius: 150px;
 }
 
-
-=======
 /* footer */
 
 footer{
@@ -509,7 +498,6 @@ footer{
   padding-left: 10px;
   padding-right: 10px;
 }
->>>>>>> 61f2d1ed2db3d6a02c26ecf0e8d16c78d6d17f48
 
 /* 반응형 */
 
