@@ -30,8 +30,8 @@ function Menu() {
   }
 
   function subHide(){
-    const sub = document.querySelector('.sub-menu');
-    sub.style.display = "none";
+    // const sub = document.querySelector('.sub-menu');
+    // sub.style.display = "none";
   }
 
   return (
