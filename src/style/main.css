@@ -257,6 +257,7 @@ h2 .underline-container{
 .underline-txt{
     display: block;
     transform: translate(0, 10px);
+    /* line-height : 170%; */
 }
 
 h2 .underline-txt{
@@ -598,6 +599,8 @@ h1{
     width:200px;
     height:200px;
     margin:auto;
+    /* background-repeat: no-repeat;
+    background-size : content; */
     /* 이미지를 너비,높이 채우기, 가운데두는 코드작성 */
 }
 
@@ -649,7 +652,6 @@ h1{
 .department .txt{
     margin-bottom: 45px;
     font-weight:bolder;
-    
 }
 
 .department-detail{
@@ -674,14 +676,13 @@ h1{
     line-height : 190%;
 }
 
-/* vivaldi */
+/* vivaldi, kgongvi, silkroad - 공동 */
 
 .program-title .icon{
     width : 180px;
     height : 180px;
     margin-top : 140px;
     display : inline-block;
-    /* 왼쪽으로 40px 정도 옮기기 */
 }
 
 .program-title .txt{
@@ -689,7 +690,6 @@ h1{
     margin-left : 40px;
     text-align : left;
     display : inline-block;
-    /* 왼쪽으로 40px 정도 옮기기 */
     line-height : 160%;
     font-weight : bolder;
     
@@ -709,10 +709,48 @@ h1{
     font-size : 15px;
     border-style: solid;
     border-color: #c4f580;
-    /* border-width: thick; */
+    border-width : 2.5px;
     line-height : 260%;
     border-radius: 150px;
 }
+
+/* vivaldi */
+
+.vivaldi .program-title .txt-container{
+    background-image: url(../assets/circle.png);
+    padding-right: 60px;
+    background-size : 33%;
+    background-repeat: no-repeat;
+    background-position: right 73px;
+    display: inline-block;
+}
+
+/* kgongvi */
+
+.kgongvi .program-title .txt-container{
+    background-image: url(../assets/circle.png);
+    padding-top: 35px;
+    padding-right: 45px;
+    background-size : 33%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: inline-block;
+}
+
+/* silkroad */
+
+.silkroad .program-title .txt-container{
+    background-image: url(../assets/circle.png);
+    padding-right: 45px;
+    background-size : 33%;
+    background-repeat: no-repeat;
+    background-position: right 25px;
+    display: inline-block;
+}
+
+
+
+
 
 /* footer */
 

@@ -10,7 +10,6 @@ import icon_recruit04 from '../assets/icon_recruit04.png';
 
 function Recruit() {
     const title = "RECRUIT";
-    // const "RECRUIT"의 클래스네임 어떻게?
     const item = [
         {
             num : "01",
@@ -135,6 +134,7 @@ function Recruit() {
                 <Department txt={dep[1].txt} detail={dep[1].detail} content={dep[1].content} /> 
                 <Department txt={dep[2].txt} detail={dep[2].detail} content={dep[2].content} /> 
             </div>
+            <div className="download"><a href="/">지원서 다운로드</a></div>
         </div>
         </div>
         <SubCircle />
