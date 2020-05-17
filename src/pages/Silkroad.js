@@ -12,7 +12,7 @@ function Silkroad() {
 
   return (
     <main>
-        <SubTitle title={title} />
+        <SubTitle title={title} size="f-35"/>
         <div className="silkroad">
         <div className="contents">
           <ProgramTitle txt = {txt} img = {img} detail={detail}/>

@@ -12,7 +12,7 @@ function Kgongvi() {
 
   return (
     <main>
-        <SubTitle title={title} />
+        <SubTitle title={title} size="f-35"/>
         <div className="kgongvi">
         <div className="contents">
           <ProgramTitle txt = {txt} img = {img} detail={detail}/>

@@ -9,7 +9,7 @@ import StartupSchool from '../components/StartupSchool';
 
 function School() {
     const [activeTab, setActiveTab] = useState(1);
-    const title = "SHCOOL";
+    const title = "PROGRAM > SCHOOL PROCESS";
     const menu = [
         {id : 1, text : "비전스쿨", url : "/program/school/vision"},
         {id : 2, text : "패러다임스쿨", url : "/program/school/paradigm"},
@@ -20,7 +20,7 @@ function School() {
 
   return (
     <main>
-        <SubTitle title={title} />
+        <SubTitle title={title} size="f-35"/>
         <div className="school">
         <div className="contents">
             <h2>매월 격주마다 2회, 1년간 운영되는 아카데미<br />

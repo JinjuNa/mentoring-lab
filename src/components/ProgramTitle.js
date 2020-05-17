@@ -12,7 +12,7 @@ function ProgramTitle({txt, img, detail}) {
               {txt[2]}
           </span>
         </div>
-        <div className="program-detail f-28">
+        <div className="program-detail f-24">
             {detail[0]}<br/>
             {detail[1]}<br/>
             {detail[2]}

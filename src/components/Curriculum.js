@@ -116,7 +116,7 @@ function Curriculum() {
         <div className="curri-line"></div>
       </div>
       <div className="curriculum">
-        <h4 className="curri-right">비전발견과정<img src={curri_icon2} alt="커리큘럼 아이콘" /></h4>
+        <h4 className="curri-left"><img src={curri_icon2} alt="커리큘럼 아이콘" />비전발견과정</h4>
         <div className="curri-item-container">
           {curriData2.map((data)=>{
               return <CurriItem data={data} />
@@ -125,7 +125,7 @@ function Curriculum() {
         <div className="curri-line"></div>
       </div>
       <div className="curriculum">
-        <h4 className="curri-right">멘토발견과정<img src={curri_icon3} alt="커리큘럼 아이콘" /></h4>
+        <h4 className="curri-left"><img src={curri_icon3} alt="커리큘럼 아이콘" />멘토발견과정</h4>
         <div className="curri-item-container">
           {curriData3.map((data)=>{
               return <CurriItem data={data} />

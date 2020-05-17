@@ -31,6 +31,10 @@ header a img{
     text-align: center;
 }
 
+.contents h2{
+    line-height:40px;
+}
+
 .contents .par{
     margin : 60px 0;
     font-size : 18px;
@@ -301,7 +305,7 @@ h2 .underline-bottom{
 /* sub-title */
 
 .sub-title{
-    padding-top:75px;
+    padding-top:0px;
     margin-left:255px;
     margin-bottom:50px;
 }
@@ -315,6 +319,9 @@ h2 .underline-bottom{
     
 }
 
+.title-text.f-35{
+    font-size: 35px;
+}
 .sub-effect{
     width:150px;
 }
@@ -591,14 +598,14 @@ h1{
 
 .recruit-item{
     flex:50%;
-    height:390px;
-    padding:30px 0px;
+    /* height:390px; */
+    padding:40px 0px;
 }
 
 .recruit-item .icon{
-    width:200px;
+    /* width:200px; */
     height:200px;
-    margin:auto;
+    margin:0 auto;
     /* background-repeat: no-repeat;
     background-size : content; */
     /* 이미지를 너비,높이 채우기, 가운데두는 코드작성 */
@@ -662,6 +669,7 @@ h1{
         border-bottom-width: 2px; */
     height: 120px;
     line-height : 190%;
+    word-break: keep-all;
 }
 
 .section-line{
@@ -681,7 +689,7 @@ h1{
 .program-title .icon{
     width : 180px;
     height : 180px;
-    margin-top : 140px;
+    /* margin-top : 140px; */
     display : inline-block;
 }
 
