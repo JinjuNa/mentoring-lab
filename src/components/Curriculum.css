@@ -84,7 +84,7 @@
 .curri-num{
     position: absolute;
     top : -20px;
-    left: 22px;
+    left: 15px;
     font-weight: 900;
     padding: 0 10px;
 }
@@ -102,13 +102,15 @@
 }
 
 .curriculum-container .curriculum:nth-child(4) h5{
-    margin-left:20px;
+    margin-left:50px;
+    margin-bottom:10px;
 }
 
 .curriculum-container .curriculum:nth-child(4)>div{
-    margin-left:20px;
+    margin-left:50px;
 }
 
 .curriculum-container .curriculum:nth-child(4) .num{
     font-weight: 900;
+    margin-right:15px;
 }

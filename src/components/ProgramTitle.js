@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-function ProgramTitle({txt, img, detail}) {
+function ProgramTitle({txt, img}) {
   return (
     <div className="program-title">
         <span className="icon"><img src={img} alt="program-title-img"/></span>
@@ -12,11 +12,6 @@ function ProgramTitle({txt, img, detail}) {
               {txt[2]}
           </span>
         </div>
-        <div className="program-detail f-24">
-            {detail[0]}<br/>
-            {detail[1]}<br/>
-            {detail[2]}
-        </div>   
     </div>
   );
 }

@@ -258,6 +258,12 @@ h2 .underline-container{
     transform: translate(0, -17px);
 }
 
+.program-detail .underline-container{
+    width:fit-content;
+    display: inline-block;
+    transform: translate(0, -17px);
+}
+
 .underline-txt{
     display: block;
     transform: translate(0, 10px);
@@ -265,6 +271,10 @@ h2 .underline-container{
 }
 
 h2 .underline-txt{
+    transform: translate(0, 17px);
+}
+
+.program-detail .underline-txt{
     transform: translate(0, 17px);
 }
 
@@ -278,6 +288,16 @@ h2 .underline-txt{
 }
 
 h2 .underline{
+    padding:0 5px;
+    margin-left: -5px;
+}
+
+.program-detail .underline{
+    padding:0 2px;
+    margin-left: -2px;
+}
+
+.recruit-item .underline{
     padding:0 5px;
     margin-left: -5px;
 }
@@ -429,6 +449,7 @@ h1{
 
 .vision .diagram-container{
     position: relative;
+    margin-top:60px;
 }
 
 .vision .diagram-text{
@@ -437,7 +458,7 @@ h1{
 }
 
 .vision .diagram-text.top{
-    top : 55px;
+    top : 60px;
     left:50%;
     transform: translateX(-50%);
     text-align: center;
@@ -465,13 +486,25 @@ h1{
     position: relative;
 }
 
+.timeline .start{
+    margin-bottom:65px;
+    color : #bcbec0;
+    font-weight: 900;
+}
+
+.timeline .end{
+    margin-top:50px;
+    color : #bcbec0;
+    font-weight: 900;
+}
+
 .timeline::after {
     content: '';
     position: absolute;
     width: 1px;
     border-right:dashed 1.4px #ccc;
-    top: -50px;
-    bottom: 0;
+    top: -20px;
+    bottom: 25px;
     left: 50%;
     margin-top:50px;
     margin-left: -1px;
@@ -513,6 +546,10 @@ h1{
 
 .timeline-content{
     padding:10px 20px;
+}
+
+.timeline li{
+    line-height: 1.5;
 }
 
 .timeline li::before{
@@ -615,7 +652,7 @@ h1{
     font-weight: bolder;
     color : #c4f580;
     padding-top:30px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .recruit-item .txt{
@@ -625,10 +662,14 @@ h1{
 
 .recruit-item-detail{
     line-height : 190%;
-    color:gray;
+    color:#939598;
     /* 중간에 있는 글씨 색 바꾸기 */
     padding-top:35px;
     height: 80px;
+}
+
+.recruit-item-detail .highlight{
+    color : #3642c6;
 }
 
 .department-container{
@@ -640,7 +681,7 @@ h1{
 
 .department{
     width:33%;
-    margin-right:50px;
+    margin-right:20px;
 }
 
 .department:last-child{
@@ -703,7 +744,7 @@ h1{
     
 }
 
-.program-title .program-detail{
+.program-detail{
     margin-top : 60px;
     text-align : center;
     line-height : 170%;

@@ -10,6 +10,9 @@
     margin-bottom:40px;
 }
 
+.school-title p{
+    font-weight: 900;
+}
 /* school content */
 
 .school-content{
@@ -18,5 +21,12 @@
 
 .school-content .par{
     margin: 40px 0;
+}
+
+.school-content .line{
+    width:95%;
+    display: inline-block;
+    height: 1.5px;
+    background-color: #cccccc;
 }
 

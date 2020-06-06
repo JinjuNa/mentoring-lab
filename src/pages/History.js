@@ -16,7 +16,7 @@ function History() {
                 <div className="timeline-content">
                 <h2>2012</h2>
                 <ul>
-                    <li>MENTORING-LAB설립</li>
+                    <li>Mentoring-Lab 설립</li>
                 </ul>
                 </div>
             </div>
@@ -77,7 +77,7 @@ function History() {
                 </ul>
                 </div>
             </div>
-            <div className="gray">OUR STORY WILL GO ON</div>
+            <div className="end">OUR STORY WILL GO ON</div>
             </div>
         </div>
         </div>
