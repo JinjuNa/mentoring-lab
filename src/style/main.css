@@ -797,6 +797,94 @@ h1{
     display: inline-block;
 }
 
+/* contact */
+.contact .contents {
+    position: relative;
+}
+
+.contact .contents .icon{
+    width : 160px;
+    height : 160px;
+    margin : 0 auto;
+    margin-top : 90px;
+    margin-bottom : 50px;
+    background-image: url(../assets/icon_contact.png);
+}
+
+.contact .contents .txt{
+    font-weight: bold;
+}
+
+.contact .contents .nickName{
+    position: absolute;
+    right : 30%;
+    margin : 0 auto;
+    margin-top : 60px;
+    margin-bottom : 55px;
+    line-height : 180%;
+}
+
+.contact .nickName span{
+    float: left;
+}
+
+.contact .nickName :after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.contact .nickName .kinds{
+    text-align:right;
+    padding-right : 30px;
+}
+.contact .nickName .detail{
+    text-align:left;
+}
+
+.contact .contents .sns {
+    width:170px;
+    height:30px;
+    margin : 0 auto;
+    margin-top : 200px;
+}
+
+.contact .contents .sns-ch{
+    width:30px;
+    height:30px;
+    margin-right : 12px;
+    float: left;
+}
+
+.contact .contents .sns:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.contact .contents .sns-ch:first-child {
+    background-image: url(../assets/sns01.png);
+}
+
+.contact .contents .sns-ch:nth-child(2) {
+    background-image: url(../assets/sns02.png);
+}
+
+.contact .contents .sns-ch:nth-child(3) {
+    background-image: url(../assets/sns03.png);
+}
+
+.contact .contents .sns-ch:last-child {
+    background-image: url(../assets/sns04.png);
+    padding-right : 0;
+}
+
+.contact .contents .map iframe{
+    width:1165px;
+    height:500px;
+    margin : 60px auto;
+}
+
 
 
 
