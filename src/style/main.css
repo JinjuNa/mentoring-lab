@@ -868,4 +868,62 @@ footer{
     .menuMobile .subMenu{
         background-color: #eeeeee;
     }
+
+    .contents{
+        width: 100%;
+    }
+} 
+
+@media all and (max-width:768px) {
+    .wrap{
+        width:100%;
+    }
+
+    .contents{
+        padding: 0 10px;
+        box-sizing: border-box;
+        font-size:14px;
+    }
+    .contents .responsive-br{
+        display: none;
+    }
+
+    .contents h2{
+        font-size: 16px;
+    }
+
+    .contents .par{
+        font-size: 14px;
+    }
+
+    /* underline */
+
+    h2 .underline-txt{
+        transform: translate(0, 20px);
+    }
+
+    /* vision */
+
+    .vision .diagram-container img{
+        width:300px;
+        margin:auto;
+    }
+
+    .vision .diagram-text{
+        font-size:12px;
+    }
+    
+    .vision .diagram-text.top{
+        top : 38px;
+    }
+    
+    .vision .diagram-text.left{
+        bottom : 40px;
+        transform: translateX(-180px);
+    }
+    
+    .vision .diagram-text.right{
+        bottom : 40px;
+        transform: translateX(180px);
+    }
 } 
