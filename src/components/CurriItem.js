@@ -1,5 +1,5 @@
 import React from 'react';
-import './Curriculum.css';
+// import './Curriculum.css';
 
 function CurriItem({ data }) {
   return (

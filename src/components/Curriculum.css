@@ -1,5 +1,5 @@
 .curriculum-container{
-    width:720px;
+    width:750px;
     margin: 0 auto;
 }
 
@@ -31,6 +31,7 @@
 
 .curri-item-container{
     display: flex;
+    flex-wrap : wrap;
 }
 
 .curri-item{
@@ -113,4 +114,28 @@
 .curriculum-container .curriculum:nth-child(4) .num{
     font-weight: 900;
     margin-right:15px;
+}
+
+@media all and (max-width:768px) {
+    .curriculum-container{
+        width:100%;
+    }
+    
+    .curri-item{
+        margin-bottom : 30px;
+    }
+
+    .curri-line{
+        display: none;
+    }
+
+    .curriculum-container .curriculum:nth-child(4) h5{
+        margin-left:0px;
+    }
+    
+    .curriculum-container .curriculum:nth-child(4)>div{
+        margin-left:0px;
+    }
+
+
 }
