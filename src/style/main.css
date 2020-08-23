@@ -880,7 +880,8 @@ h1{
 }
 
 .contact .contents .map iframe{
-    width:1165px;
+    /* width:1165px; */
+    width:100%;
     height:500px;
     margin : 60px auto;
 }
