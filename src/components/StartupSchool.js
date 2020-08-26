@@ -24,10 +24,10 @@ function StartupSchool() {
         </span>
         </div>
 
-        <p class="par">아이템 선정에서부터 사업계획서 작성, 정부지원사업 공모,<br />
-        투자 IR에 이르기까지... 스타트업이 되기 위한 전 과정을<br />
+        <p class="par">아이템 선정에서부터 사업계획서 작성, 정부지원사업 공모,<br className="responsive-br"/>
+        투자 IR에 이르기까지... 스타트업이 되기 위한 전 과정을<br className="responsive-br"/>
         1년의 시간 동안 프로젝트를 진행해가면서 배웁니다.</p>
-        <p class="par">창업에 성공한 기업들은 Mentoring-Lab의 사업파트너로서<br />
+        <p class="par">창업에 성공한 기업들은 Mentoring-Lab의 사업파트너로서<br className="responsive-br"/>
         공익과 가치실현에 대한 투자를 이어갑니다.</p>
       </div>
     </div>
