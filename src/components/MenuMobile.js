@@ -1,9 +1,15 @@
 import React from 'react';
 
 function MenuMobile() {
+
+    function clickMenu(){
+        var gnb = document.getElementById("gnbM");
+        gnb.classList.toggle('active');
+      }
+
   return (
     <div className="menuMobile">
-        <div className="menuButton" id="menuButtonM">
+        <div className="menuButton" id="menuButtonM" onClick={()=> clickMenu()}>
         <span></span>
         <span></span>
         <span></span>

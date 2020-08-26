@@ -4,6 +4,7 @@ import './style/main.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FooterMobile from './components/FooterMobile';
 import Menu from './components/Menu';
 import MenuMobile from './components/MenuMobile';
 import Main from './pages/Main';
@@ -36,6 +37,7 @@ function App() {
       </Switch>
       </Router>
       <Footer />
+      <FooterMobile />
     </div>
   );
 }

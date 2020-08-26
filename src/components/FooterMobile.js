@@ -2,9 +2,9 @@ import React from 'react';
 import footer_background from "../assets/footer_background.png";
 import logo_bottom from "../assets/logo_bottom.svg";
 
-function Footer() {
+function FooterMobile() {
   return (
-    <footer className="footer">
+    <footer className="footer-mobile">
         <img src={footer_background} alt="footer_background" className="footer-background" />
         <div className="footer-contents">
             <img className="footer-logo" src={logo_bottom} alt="logo_bottom" />
@@ -15,4 +15,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterMobile;

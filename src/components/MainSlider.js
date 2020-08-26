@@ -4,6 +4,10 @@ import slide1 from '../assets/slide1.png';
 import slide2 from '../assets/slide2.png';
 import slide3 from '../assets/slide3.png';
 import slide4 from '../assets/slide4.png';
+import slideM1 from '../assets/slideM1.png';
+import slideM2 from '../assets/slideM2.png';
+import slideM3 from '../assets/slideM3.png';
+import slideM4 from '../assets/slideM4.png';
 import effect from '../assets/effect.png';
 
 const Slide = styled.div`
@@ -12,6 +16,24 @@ const Slide = styled.div`
 
   & img{
     width:100%;
+  }
+
+  & .slide-img-pc{
+    display : block;
+  }
+
+  & .slide-img-mo{
+    display : none;
+  }
+
+  @media all and (max-width:768px){
+    & .slide-img-pc{
+      display : none;
+    }
+
+    & .slide-img-mo{
+      display : block;
+    }
   }
 `;
 
@@ -24,6 +46,13 @@ const Container = styled.div`
   background-repeat: no-repeat;
   background-position : right 10px top 50px;
   background-size: 150px auto;
+
+  @media all and (max-width:768px){
+    width : 100%;
+    background-size: 50px auto;
+    padding-top : 30px;
+    background-position : right 10px top 65px;
+  }
 `;
 
 const SliderContainer = styled.div`
@@ -53,7 +82,8 @@ const PagerContainer = styled.ul`
 const CarouselComponent = ({slideItem}) =>{
   return (
     <Slide>
-        <img src={slideItem.img} alt="슬라이드 이미지" />
+        <img src={slideItem.img} alt="슬라이드 이미지" className="slide-img-pc"/>
+        <img src={slideItem.img_m} alt="슬라이드 이미지" className="slide-img-mo"/>
     </Slide>
   )
 }
@@ -68,10 +98,10 @@ const MainSlider = () => {
     const [activePage, setActivePage] = useState(1);
     
     const slideItem = [
-      {num : 1, img : slide1},
-      {num : 2, img : slide2},
-      {num : 3, img : slide3},
-      {num : 4, img : slide4}
+      {num : 1, img : slide1, img_m : slideM1},
+      {num : 2, img : slide2, img_m : slideM2},
+      {num : 3, img : slide3, img_m : slideM3},
+      {num : 4, img : slide4, img_m : slideM4}
     ]
 
     const slideContent = slideItem.map((slideItem, index)=> <CarouselComponent slideItem={slideItem} key={index} />);
