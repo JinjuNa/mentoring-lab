@@ -1007,6 +1007,7 @@ footer{
     .contents{
         width: 100%;
     }
+    /* 꾸불꾸불 display:none; */
 } 
 
 @media all and (max-width:768px) {
@@ -1059,6 +1060,8 @@ footer{
         transform: translate(62%, -26%);
         /* transform: translate(62%, 6%); */
     }
+
+    /* 꾸불꾸불 display:none; */
 
     /* underline */
 
@@ -1128,9 +1131,36 @@ footer{
 
 
     /* contact */
-    .contact .nickName .detail{
-        /* width:; */
+    .contact .nickName{
+        /* width:70%; */
+        
     }
+    .contact .sns{
+        margin:30px;
+        width:72px;
+        position: absolute;
+        bottom:600px;
+        left:50%;
+        /* padding-left:-78px; */
+
+    }
+    .contact .contents .sns-ch{
+        float: none;
+    }
+    .contact .contents .sns .on{
+        float: left;
+    }
+    .contact .contents .sns .under{
+        float: left;
+        margin-top:12px;
+    }
+    .contact .contents .sns:after{
+        /* display:block;
+        clear:both;
+        content:""; */
+    }
+
+
 
     /* footer */
 

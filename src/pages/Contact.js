@@ -27,10 +27,10 @@ function Contact() {
           </div>
 
           <div className="sns">
-            <div className="sns-ch"><a href="/"></a></div>
-            <div className="sns-ch"><a href="/"></a></div>
-            <div className="sns-ch"><a href="/"></a></div>
-            <div className="sns-ch"><a href="/"></a></div>
+            <div className="sns-ch on"><a href="/"></a></div>
+            <div className="sns-ch on"><a href="/"></a></div>
+            <div className="sns-ch under"><a href="/"></a></div>
+            <div className="sns-ch under"><a href="/"></a></div>
           </div>
 
           <div class="map">
