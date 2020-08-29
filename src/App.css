@@ -82,3 +82,11 @@ a{
 .color-green{
   color : #c4f580;
 }
+
+
+@media all and (max-width:768px) {
+  .f-24{
+    font-size : 18px;
+  }
+
+}

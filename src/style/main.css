@@ -149,8 +149,9 @@ header a img{
     }
     .menuMobile .menuButton{
     position: absolute;
-    top:-35px;
+    top: 20px;
     right: 20px;
+    z-index : 999;
 
     }
     .menuMobile .menuButton span{
@@ -275,6 +276,11 @@ h2 .underline-container{
 h2 .underline-txt{
     transform: translate(0, 17px);
 }
+
+h2 .underline.disabled{
+    background-color: transparent;
+}
+
 
 .program-detail .underline-txt{
     transform: translate(0, 17px);
@@ -527,7 +533,7 @@ h1{
     right: -13px;
     background-color: #493fd3;
     border: 3px solid #c2c2c2;
-    top: 20px;
+    top: 28px;
     border-radius: 50%;
     z-index: 1;
 }
@@ -566,7 +572,13 @@ h1{
 
 @media screen and (max-width: 600px) {
     .timeline::after {
-        left: 21px;
+        left: 27px;
+    }
+
+    .timeline-container{
+        width : 100%;
+        padding : 10px 15px;
+        word-break: keep-all;
     }
 
     .timeline-container.left {
@@ -582,6 +594,15 @@ h1{
     /* Make all right containers behave like the left ones */
     .timeline-container.right {
         left: 0%;
+    }
+
+    .timeline .start{
+        /* text-align: left; */
+        font-size : 0;
+    }
+
+    .timeline .end{
+        font-size : 0;
     }
 }
 
@@ -1018,6 +1039,10 @@ footer{
 
     header {
         text-align : center;
+        position : fixed;
+        width : 100%;
+        background-color : #fff;
+        z-index : 9;
     }
 
     header a img{
@@ -1036,6 +1061,7 @@ footer{
 
     .contents h2{
         font-size: 16px;
+        line-height : normal;
     }
 
     .contents .par{
@@ -1044,6 +1070,7 @@ footer{
 
     main{
         padding-bottom : 240px;
+        padding-top : 60px;
     }
 
     .circle1{
@@ -1070,7 +1097,7 @@ footer{
     }
 
     .title-text.f-35{
-        font-size: 25px;
+        font-size: 18px;
     }
 
     /* main */
@@ -1128,7 +1155,21 @@ footer{
         transform: translateX(180px);
     }
 
+    /* school */
 
+    .school-menu li a{
+        font-size : 12px;
+    }
+
+    /* program */
+
+    .program-detail{
+        word-break: keep-all;
+    }
+
+    .program-detail br{
+        display: none;
+    }
 
     /* contact */
     .contact .nickName{

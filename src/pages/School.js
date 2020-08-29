@@ -23,13 +23,19 @@ function School() {
         <SubTitle title={title} size="f-35"/>
         <div className="school">
         <div className="contents">
-            <h2>매월 격주마다 2회, 1년간 운영되는 아카데미<br />
+            <h2>
+            <span className="underline-container">
+                <span className="underline-txt">매월 격주마다 2회, 1년간 운영되는 아카데미</span>
+                <span className="underline disabled"></span>
+            </span>
+            <br />
             <span className="underline-container">
                 <span className="underline-txt">오프라인 토론과 미션들을</span>
                 <span className="underline"></span>
             </span>
             <span className="underline-container">
                 <span className="underline-txt">&nbsp;통해 생각하며 배웁니다</span>
+                <span className="underline disabled"></span>
             </span>
              </h2>
             <p className="par">한국의 교육은 주로 지식적으로 배우는 학(學) 위주로 배웁니다.<br className="responsive-br"/>
