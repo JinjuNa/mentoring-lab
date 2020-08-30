@@ -821,8 +821,9 @@ h1{
 }
 
 /* contact */
+
 .contact .contents {
-    position: relative;
+    /* position: relative; */
 }
 
 .contact .contents .icon{
@@ -840,8 +841,9 @@ h1{
 }
 
 .contact .contents .nickName{
-    position: absolute;
-    right : 30%;
+    display:inline-block;
+    /* position: absolute;
+    right : 23%; */
     margin : 0 auto;
     margin-top : 60px;
     margin-bottom : 55px;
@@ -870,7 +872,6 @@ h1{
     width:170px;
     height:30px;
     margin : 0 auto;
-    margin-top : 200px;
 }
 
 .contact .contents .sns-ch{
@@ -1032,6 +1033,7 @@ footer{
 } 
 
 @media all and (max-width:768px) {
+    /* 꾸불꾸불 display:none; */
     .wrap{
         width:100%;
         padding-top : 40px;
@@ -1087,8 +1089,6 @@ footer{
         transform: translate(62%, -26%);
         /* transform: translate(62%, 6%); */
     }
-
-    /* 꾸불꾸불 display:none; */
 
     /* underline */
 
@@ -1171,34 +1171,69 @@ footer{
         display: none;
     }
 
-    /* contact */
-    .contact .nickName{
-        /* width:70%; */
-        
-    }
-    .contact .sns{
-        margin:30px;
-        width:72px;
-        position: absolute;
-        bottom:600px;
-        left:50%;
-        /* padding-left:-78px; */
+    /* recruit */
 
+    .recruit .f-26{
+        line-height: 180%;
     }
-    .contact .contents .sns-ch{
+    .underline-bottom{ 
+        padding-top:7px;
+    }
+    .recruit .par{
+        margin:40px 0;
+    }
+
+
+
+
+
+
+    /* contact-768 */
+
+    .contact .f-35{
+        font-size:22px;
+    }
+
+    .contact .txt{
+        font-size:22px;
+    }
+
+    .contact .kinds{
+        display: none;
+    }
+
+    .contact .detail{ 
+        display:inline-block;      
+    }
+
+    .contact .detail p{
+        text-align: center;
+    }
+
+    /* sns-Q */
+    .contact .contents .sns .sns-ch{
         float: none;
     }
+
     .contact .contents .sns .on{
         float: left;
     }
+
     .contact .contents .sns .under{
         float: left;
         margin-top:12px;
     }
+
     .contact .contents .sns:after{
-        /* display:block;
+        display:block;
         clear:both;
-        content:""; */
+        content:"";
+    }
+
+    .contact .sns{
+        width : 72px;
+        height : 72px;
+        margin : 0 auto;
     }
 
 
