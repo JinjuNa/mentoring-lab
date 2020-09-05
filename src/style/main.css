@@ -702,11 +702,6 @@ h1{
     margin-bottom:100px;
 }
 
-.department{
-    width:33%;
-    margin-right:20px;
-}
-
 .department:last-child{
     margin-right: 0;
 }
@@ -1186,6 +1181,33 @@ footer{
     }
     .recruit .par{
         margin:40px 0;
+    }
+
+    .recruit-item{
+        width:430px;
+        margin:0 auto;
+        flex:none;
+    }
+    
+    .department-container{
+        display: inline-block;
+    }
+    
+    .department{
+        width:430px;
+        padding-top:60px;
+    }
+    
+    .department:first-child{
+        padding-top:0;
+    }
+
+    .department .txt{
+        margin-bottom: 35px;
+    }
+
+    .department-detail{
+        padding:0;
     }
 
     /* contact */
