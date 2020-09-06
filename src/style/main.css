@@ -1068,6 +1068,11 @@ footer{
 
     .contents .par{
         font-size: 14px;
+        word-break : keep-all;
+    }
+
+    .contents .par br{
+        display : none;
     }
 
     main{
@@ -1187,6 +1192,10 @@ footer{
         width:430px;
         margin:0 auto;
         flex:none;
+    }
+
+    .recruit-item-detail br{
+        display : none;
     }
     
     .department-container{
