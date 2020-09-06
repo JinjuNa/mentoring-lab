@@ -18,7 +18,7 @@ function Kgongvi() {
           <ProgramTitle txt = {txt} img = {img}/>
           <div class="program-detail f-24">
             현업에 있는 직업 전문인들을 만나<br/>
-            테이블 인터뷰를 통해서<br/>
+            테이블 인터뷰를 통해서&nbsp;<br/>
             <span class="underline-container"><span class="underline-txt">진짜 사회의 이야기</span><span class="underline"></span></span>
             <span class="underline-container"><span class="underline-txt">를 듣는 시간</span></span>
           </div>

@@ -347,9 +347,6 @@ h2 .underline-bottom{
     
 }
 
-.title-text.f-35{
-    font-size: 35px;
-}
 .sub-effect{
     width:150px;
 }
@@ -1169,6 +1166,9 @@ footer{
 
     /* program */
 
+    .program-title .icon{
+        height : 150px;  
+    }
     .program-detail{
         word-break: keep-all;
     }
@@ -1177,9 +1177,16 @@ footer{
         display: none;
     }
 
+    /* vivaldi */
+
+    .vivaldi .program-title .txt-container{
+        background-position: right 48px;
+    }
+    
+
     /* recruit */
 
-    .recruit .f-26{
+    .contents .f-26{
         line-height: 180%;
     }
     .underline-bottom{ 

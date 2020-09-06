@@ -46,7 +46,7 @@
     border: 5px solid #33489b;
     text-align: center;
     position: relative;
-    z-index: 99;
+    z-index: 5;
 }
 
 .curri-circle.blue{
@@ -135,6 +135,10 @@
     
     .curriculum-container .curriculum:nth-child(4)>div{
         margin-left:0px;
+    }
+
+    .curri-item-container{
+        justify-content: space-evenly;
     }
 
 

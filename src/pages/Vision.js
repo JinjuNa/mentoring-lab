@@ -11,7 +11,8 @@ function Vision() {
         <SubTitle title={title} />
         <div className="vision">
         <div className="contents">
-            <h2>실력과 인성을 겸비한 청년들을 양성하는 곳,<br />
+            <h2 className="f-26">
+            <span class="underline-container"><span class="underline-txt">실력과 인성을 겸비한 청년들을 양성하는 곳,</span></span><br />
             <span class="underline-container"><span class="underline-txt">여기는&nbsp;</span></span>
             <span class="underline-container"><span class="underline-txt">Mentoring-Lab</span><span class="underline"></span></span>
             <span class="underline-container"><span class="underline-txt">&nbsp;입니다.</span></span>
