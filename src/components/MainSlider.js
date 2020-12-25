@@ -63,6 +63,7 @@ const SliderContainer = styled.div`
 const PagerContainer = styled.ul`
   color : #fff;
   text-align:right;
+  z-index : 999;
 
   & li {
     display : inline-block;
