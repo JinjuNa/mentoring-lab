@@ -180,7 +180,7 @@ function Recruit() {
                 <Department txt={dep[1].txt} detail={dep[1].detail} content={dep[1].content} /> 
                 <Department txt={dep[2].txt} detail={dep[2].detail} content={dep[2].content} /> 
             </div>
-            <div className="download"><a href="/">지원서 다운로드</a></div>
+            <div className="download"><a href="https://cafe.naver.com/mentoringlab/18403" target="_blank" rel="noopener noreferrer" >지원서 다운로드</a></div>
         </div>
         </div>
         <SubCircle />

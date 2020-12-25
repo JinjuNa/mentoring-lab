@@ -26,7 +26,7 @@ function Silkroad() {
             다양한 삶의 지혜들을 윤성화 소장님의 직강을 통해 함께 공부해보는 시간입니다.<br/><br/>
             격월로 행사가 진행되며 연령,성별,직업에 상관없이 누구든 참여 가능합니다.
           </div>
-          <div className="download"><a href="/">연간멤버십 할인받기</a></div>
+          <div className="download"><a href="https://cafe.naver.com/mentoringlab/19019" target="_blank" rel="noopener noreferrer">연간멤버십 할인받기</a></div>
         </div>
         </div>
         <SubCircle />

@@ -27,7 +27,7 @@ function Kgongvi() {
             한자리에 모셔서 간단한 토크쇼와 전담 인터뷰로 배움을 얻는 시간입니다.<br/><br/>
             분기별 1회로 행사가 진행되며 연령,성별,직업에 상관없이 누구든 참여 가능합니다.
           </div>
-          <div className="download"><a href="/">연간멤버십 할인받기</a></div>
+          <div className="download"><a href="https://cafe.naver.com/mentoringlab/19019" target="_blank" rel="noopener noreferrer">연간멤버십 할인받기</a></div>
         </div>
         </div>
         <SubCircle />

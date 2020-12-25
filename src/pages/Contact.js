@@ -27,10 +27,10 @@ function Contact() {
           </div>
 
           <div className="sns">
-            <div className="sns-ch on"><a href="/"></a></div>
-            <div className="sns-ch on"><a href="/"></a></div>
-            <div className="sns-ch under"><a href="/"></a></div>
-            <div className="sns-ch under"><a href="/"></a></div>
+            <div className="sns-ch on"><a href="https://www.youtube.com/channel/UCfwBlA_266ycHAaCjOAB-2w" target="_blank" rel="noopener noreferrer"> </a></div>
+            <div className="sns-ch on"><a href="https://www.facebook.com/memtoringlab/" target="_blank" rel="noopener noreferrer"> </a></div>
+            <div className="sns-ch under"><a href="https://blog.naver.com/hasung4001" target="_blank" rel="noopener noreferrer"> </a></div>
+            <div className="sns-ch under"><a href="http://www.podbbang.com/ch/12633" target="_blank" rel="noopener noreferrer"> </a></div>
           </div>
 
           <div class="map">
