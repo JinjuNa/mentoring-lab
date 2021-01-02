@@ -41,7 +41,7 @@ function Vision() {
                 모든 인생이 탁월한 인생으로 살아갈 때 까지 Mentoring-Lab의 <br className="responsive-br"/>
                 교육실험은 계속됩니다.
             </p>
-            <div className="button"><a href="/">회사소개서 다운로드</a></div>
+            <div className="button"><a href="http://asq.kr/wifVAO4kzt97h2" target="_blank" rel="noopener noreferrer">회사소개서 다운로드</a></div>
         </div>
         </div>
         <SubCircle />
