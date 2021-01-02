@@ -21,7 +21,7 @@ function Contact() {
             </span>
             <span className="detail">
               <p>서울 마포구 서교동 395-117 서교리치빌 102</p>
-              <p>+82 507-1460-0823</p>
+              <p>+82 0507-1460-0823</p>
               <p>mentoring_lab@naver.com</p>
             </span>
           </div>
