@@ -29,6 +29,7 @@ function StartupSchool() {
         1년의 시간 동안 프로젝트를 진행해가면서 배웁니다.</p>
         <p class="par">창업에 성공한 기업들은 Mentoring-Lab의 사업파트너로서<br className="responsive-br"/>
         공익과 가치실현에 대한 투자를 이어갑니다.</p>
+        <p class="par">*2019년 초기창업패키지 창업아이템 4개 선정</p>
       </div>
     </div>
   );

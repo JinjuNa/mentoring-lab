@@ -77,6 +77,22 @@ function History() {
                 </ul>
                 </div>
             </div>
+            <div className="timeline-container left">
+                <div className="timeline-content">
+                <h2>2019</h2>
+                <ul>
+                    <li>온라인 진로멘토링 교육과정 개설</li>
+                </ul>
+                </div>
+            </div>
+            <div className="timeline-container right">
+                <div className="timeline-content">
+                <h2>2020</h2>
+                <ul>
+                    <li>진로코칭북 ‘그래서 제가 뭘하면 되나요’ 출간</li>
+                </ul>
+                </div>
+            </div>
             <div className="end">OUR STORY WILL GO ON</div>
             </div>
         </div>

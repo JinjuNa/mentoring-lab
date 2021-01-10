@@ -460,6 +460,7 @@ h1{
 .vision .diagram-text{
     position: absolute;
     width:160px;
+    font-weight: 700;
 }
 
 .vision .diagram-text.top{
@@ -725,7 +726,9 @@ h1{
         border-bottom-width: 2px; */
     height: 120px;
     line-height : 190%;
-    word-break: keep-all;
+    /* word-break: keep-all; */
+    width: 80%;
+    margin: 0 auto;
 }
 
 .section-line{

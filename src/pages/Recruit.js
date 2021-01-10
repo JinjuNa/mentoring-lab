@@ -150,7 +150,7 @@ function Recruit() {
                         <span class="txt f-25 underline-txt">야근이 없습니다</span>
                         <span class="underline"></span>
                     </span>
-                    <div class="recruit-item-detail f-15">모든 직원이 <span className="highlight">재택근무</span>를 하기 때문에 야근이 없습니다. <br />대신 주어진 일을 책임 있게 해내지 못하면 불이익이 있습니다. <br /><span className="highlight">월 2회 전체회의 4시간</span>은 필참입니다.</div>
+                    <div class="recruit-item-detail f-15"><span className="highlight">모든 직원이 재택근무</span>를 하기 때문에 야근이 없습니다. <br />대신 주어진 일을 책임 있게 해내지 못하면 불이익이 있습니다. <br /><span className="highlight">월 2회 전체회의 4시간</span>은 필참입니다.</div>
                 </div>
                 <div class="recruit-item">
                     <div class="icon">

@@ -30,8 +30,8 @@ function Menu() {
   }
 
   function subHide(){
-    // const sub = document.querySelector('.sub-menu');
-    // sub.style.display = "none";
+    const sub = document.querySelector('.sub-menu');
+    sub.style.display = "none";
   }
 
   return (
@@ -44,12 +44,12 @@ function Menu() {
     <ul className="gnb active" id="gnb">
       {menu.map((menu, key)=>{
         return(
-          <li key={key}><a href={menu.url} onMouseOver={()=>subOver(key)} onMouseOut={()=>subHide()}>{menu.text}<div class="menu-underline"></div></a></li>
+          <li key={key}><a href={menu.url} onMouseOver={()=>subOver(key)}>{menu.text}<div class="menu-underline"></div></a></li>
         )
       })}
     </ul>
 
-    <ul className="sub-menu">
+    <ul className="sub-menu" onMouseLeave={()=>subHide()}>
       {submenu.map((menu, key)=>{
         return(
           <li key={key}><a href={menu.url}>{menu.text}<div class="menu-underline"></div></a></li>
