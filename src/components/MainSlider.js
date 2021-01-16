@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
-import slide1 from '../assets/slide1.png';
-import slide2 from '../assets/slide2.png';
-import slide3 from '../assets/slide3.png';
-import slide4 from '../assets/slide4.png';
-import slideM1 from '../assets/slideM1.png';
-import slideM2 from '../assets/slideM2.png';
-import slideM3 from '../assets/slideM3.png';
-import slideM4 from '../assets/slideM4.png';
+// import slide1 from '../assets/slide1.png';
+// import slide2 from '../assets/slide2.png';
+// import slide3 from '../assets/slide3.png';
+// import slide4 from '../assets/slide4.png';
+// import slideM1 from '../assets/slideM1.png';
+// import slideM2 from '../assets/slideM2.png';
+// import slideM3 from '../assets/slideM3.png';
+// import slideM4 from '../assets/slideM4.png';
 import effect from '../assets/effect.png';
 
 const Slide = styled.div`
@@ -99,10 +99,10 @@ const MainSlider = () => {
     const [activePage, setActivePage] = useState(1);
     
     const slideItem = [
-      {num : 1, img : slide1, img_m : slideM1},
-      {num : 2, img : slide2, img_m : slideM2},
-      {num : 3, img : slide3, img_m : slideM3},
-      {num : 4, img : slide4, img_m : slideM4}
+      {num : 1, img : "http://hasung40011.cafe24.com/images/slide1.png", img_m : "http://hasung40011.cafe24.com/images/slideM1.png"},
+      {num : 2, img : "http://hasung40011.cafe24.com/images/slide2.png", img_m : "http://hasung40011.cafe24.com/images/slideM2.png"},
+      {num : 3, img : "http://hasung40011.cafe24.com/images/slide3.png", img_m : "http://hasung40011.cafe24.com/images/slideM3.png"},
+      {num : 4, img : "http://hasung40011.cafe24.com/images/slide4.png", img_m : "http://hasung40011.cafe24.com/images/slideM4.png"}
     ]
 
     const slideContent = slideItem.map((slideItem, index)=> <CarouselComponent slideItem={slideItem} key={index} />);
