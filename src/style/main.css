@@ -769,6 +769,11 @@ h1{
     font-weight : bolder;
 }
 
+.program-img{
+    width: 80%;
+    margin : 0 auto 60px auto ;
+}
+
 .contents .download{
     width:200px;
     height: 40px;
@@ -1178,6 +1183,10 @@ footer{
 
     .program-detail br{
         display: none;
+    }
+
+    .program-img{
+        width: 100%;
     }
 
     /* vivaldi */
